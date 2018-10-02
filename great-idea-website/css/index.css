@@ -73,3 +73,14 @@ h1, h2, h3, h4, h5 {
 .nav-bar a:not(:last-child) {
 	margin-right: 30px;
 }
+
+.feat-about p {
+	width: 300px;
+	display: inline-block;
+}
+
+#Copyright {
+	left: 50%;
+	position: absolute;
+	
+}
