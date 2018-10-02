@@ -71,13 +71,28 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-bar a:not(:last-child) {
+
 	margin-right: 30px;
 }
 
+
+
 .feat-about p {
-	width: 300px;
-	display: inline-block;
+	
+	width: 49%;
+	float:left;
+	margin: 0 auto;
+	
 }
+
+.serv-proj-miss p {
+	width: 33%;
+	float: left;
+	margin: 0 auto;
+}
+
+
+
 
 #Copyright {
 	left: 50%;
