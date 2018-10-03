@@ -60,75 +60,106 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-nav img{
-	float: right;
+.container {
+	max-width: 910px;
+	padding: 0 15px;
+	width: 100%;
+	margin: 0 auto;
 }
-.header-left {
+
+
+/* navigation */
+.nav a {
+	margin-right: 62px;
+	text-decoration: none;
+	color: #999;
 	display: inline-block;
-	width: 49%;
-	height: 400px;
-	margin-left: 50px;
+	transform: translateY(-10px);
 }
 
-header h1 {
-	font-size: 100px;
+.nav {
+	padding: 30px 0;
+}
+
+/* header */
+
+.header {
+	padding: 50px;
+}
+
+.heading {
+	font-size: 72px;
+	text-align: center;
+}
+
+.heading-wrapper {
+	text-align: center;
+	display: inline-block;
+	padding: 50px;
 	
-
 }
 
-header button {
-	margin-left: 30%;
-}
-
-
-
-.img {
+.img-wrapper {
 	display: inline-block;
 }
 
-.wrapper {
-	width: 876px;
-	margin: 0 auto;
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 8px 60px;
+	border: 1px solid black;
+
 }
 
-.nav-bar {
-	margin: 50px 0px;
-	font-family: Arial, Helvetica, sans-serif;
-}
+/*  Contents */
 
-.nav-bar a:not(:last-child) {
-
-	margin-right: 30px;
-}
-.feat-about {
-	height: 200px;
-}
-
-
-.feat-about p {
+.top-section {
+	padding: 30px 0;
 	
-	width: 49%;
-	float:left;
-	margin: 0 auto;
+
+}
+
+.top-section article {
+	display: inline-block;
+	width: 50%;
+}
+
+.bottom-section {
+	padding: 30px 0;
 	
+
 }
 
-.serv-proj-miss p {
-	width: 33.33%;
-	float: left;
-	margin: 0 auto;
+.bottom-section article {
+	display: inline-block;
+	width: 33%;
+}
+
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
 }
 
 
 
-
-#Copyright {
-	left: 50%;
-	position: absolute;
-	
+/* clear fix */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
 }
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+/* end clear fix */
