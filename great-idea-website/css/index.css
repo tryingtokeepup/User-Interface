@@ -60,21 +60,54 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 /* Your code starts here! */
+
+nav img{
+	float: right;
+}
+.header-left {
+	display: inline-block;
+	width: 49%;
+	height: 400px;
+	margin-left: 50px;
+}
+
+header h1 {
+	font-size: 100px;
+	
+
+}
+
+header button {
+	margin-left: 30%;
+}
+
+
+
+.img {
+	display: inline-block;
+}
 
 .wrapper {
 	width: 876px;
 	margin: 0 auto;
 }
 
+.nav-bar {
+	margin: 50px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-bar a:not(:last-child) {
 
 	margin-right: 30px;
 }
-
+.feat-about {
+	height: 200px;
+}
 
 
 .feat-about p {
@@ -86,7 +119,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .serv-proj-miss p {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	margin: 0 auto;
 }
